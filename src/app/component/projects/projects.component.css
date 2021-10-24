@@ -1,0 +1,11 @@
+.main-cont{
+  width: 90%;
+  height: 800px;
+  margin: 0  auto;
+  background-color: #F8AC6D;
+  border-radius: 50px;
+  position: absolute;
+  top: 800px;
+  left: 80px;
+}
+

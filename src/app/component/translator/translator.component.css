@@ -1,0 +1,17 @@
+.it{
+    width: 83px;
+    position: absolute;
+    top: 51px;
+    right: 157px;
+    cursor: pointer;
+
+    
+}
+
+.en{
+    width: 105px;
+    position: absolute;
+    top: 41px;
+    right: 280px;
+    cursor: pointer;
+}

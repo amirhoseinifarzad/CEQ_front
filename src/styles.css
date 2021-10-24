@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+.foter{
+    
+    position:absolute;
+    top: 1700px;
+    width: 100%;
+}
+
+body{
+    background:#EBEBEA!important;
+}
+
+.pink-bg{
+background-color: #F9A29E;
+}
+
+.gray-text{
+    color : #707070 ;
+}
+.gray-bg{
+    color : #707070 ;
+}
+
+.black-bg{
+    background-color: #1F1E1E;
+}
+
+.orange-l-bg{
+    background-color: #FBD3B2;
+}
+.orange-d-bg{
+    background-color: #F8AC6D;
+}
+
+.yellow-d-bg{
+    background-color: #F6B900;
+}
+
+.orange-bg{
+    background-color: #FF6C00;
+}
+
+a{
+    cursor: pointer !important;
+}
+

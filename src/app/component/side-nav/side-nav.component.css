@@ -1,0 +1,36 @@
+.m-holder{
+    background-color: aliceblue;
+    position: absolute !important;
+    right: 40px;
+    top: 40px;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+}
+
+.coustum{
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.material-icons{
+    color: black;
+    font-size: 45px !important;
+}
+
+.bg-nav{
+    
+   
+    background-image: linear-gradient(to right bottom, #f6b900, #f9ac00, #fb9e00, #fd9000, #fe8100, #ff7c20, #ff7831, #ff753f, #ff7e5b, #ff8973, #ff958a, #f9a29e);
+}
+
+.costum-log{
+    font-size: 35px !important;
+}
+.m-3{
+    margin: 20px;
+    font-size: large;
+    font-weight: 500;
+}

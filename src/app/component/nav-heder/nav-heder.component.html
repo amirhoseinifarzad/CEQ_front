@@ -1,0 +1,22 @@
+<div class="nav-holder ">
+    <!-- top menu -->
+
+
+    <!-- Top nav bar -->
+    <div class="nav-cont z-depth-3">
+       <ul>
+           <li class="nav-top p1 "  routerLinkActive="active" [routerLink]="['/service']"   (click)="shapeColorO()"><a class="a-top" >Services</a></li>
+           <li class="nav-top p2 "  routerLinkActive="active" [routerLink]="['/products']"  (click)="shapeColorW()" ><a class="a-top">Products</a></li>
+           <li class="nav-top p3 "  routerLinkActive="active" [routerLink]="['/projects']" (click)="shapeColorB()" ><a class="a-top">Projects</a></li>
+
+        </ul>
+        <h1 class="m-3">Ethics</h1>
+        <p class="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa illo, placeat perferendis magnam iure aliquid libero delectus, iusto unde odio. Officiis esse laudantium ducimus dolor aliquam excepturi praesentium nesciunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, dignissimos ut. Ipsa ex commodi qui rerum natus odit blanditiis quos expedita et ipsam est, enim sapiente, fugit eligendi itaque voluptatem!.</p>
+        <a  ><img class="more" src="assets/images/icons/icon_more.svg" style="width: 110px;" alt=""></a>
+        <div class="top-img-holder ">
+          <a [routerLink]='["/"]' (click)="shapeColory()"><img src="assets\images\logo\logo_top.svg" style="width: 300px;"></a>
+    
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

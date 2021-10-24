@@ -1,0 +1,45 @@
+
+
+<!-- side nav bar  -->
+
+<ul id="slide-out" class="sidenav bg-nav">
+  <div class="cov">
+
+
+
+    <li><div class="user-view">
+      <div >
+        <img style="width: 200px;"src="assets/images/logo/logo_top.svg">
+      </div>
+      
+      
+    </div></li>
+    
+    <li><a [routerLink]="['/']" (click)="shapeColory()" class="m-3">Home</a></li>
+    <li><div class="divider "></div></li>
+    <li><a [routerLink]="['/projects']"  (click)="shapeColorB()" class=" m-3">Projects</a></li>
+    <li><a  [routerLink]="['/service']"  (click)="shapeColorO()" class=" m-3">Services</a></li>
+    <li><a  [routerLink]="['/products']" (click)="shapeColorW()" class=" m-3">products</a></li>
+
+    <li><div class="divider "></div></li>
+    <!-- this is for feature  -->
+    <li><a [routerLink]="['/teams']"class=" m-3">Teams</a></li>
+    <li><a class="m-3">About us</a></li>
+    <li><a class="disable m-3">Log in<i class="material-icons costum-log">login</i></a></li>
+  
+  
+
+  </div>  
+  
+</ul>
+
+
+<!-- burger menue  -->
+<div class="m-holder z-depth-3">
+  
+  <a href="#" data-target="slide-out" class="sidenav-trigger">
+    <i class="small material-icons coustum">menu</i>
+  </a>
+</div>
+
+<router-outlet></router-outlet>
