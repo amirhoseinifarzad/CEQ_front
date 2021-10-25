@@ -10,9 +10,11 @@ import { NavHederComponent } from './component/nav-heder/nav-heder.component';
 import { TeamComponent } from './component/team/team.component';
 import { ProjectsComponent } from './component/projects/projects.component';
 import { ServicesComponent } from './component/services/services.component';
-import { NewsComponent } from './component/news/news.component';
+
 import { ProductComponent } from './component/product/product.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { EthicsComponent } from './component/ethics/ethics.component';
+
 
 
 @NgModule({
@@ -24,9 +26,11 @@ import { FooterComponent } from './component/footer/footer.component';
     TeamComponent,
     ProjectsComponent,
     ServicesComponent,
-    NewsComponent,
+   
     ProductComponent,
-    FooterComponent
+    FooterComponent,
+    EthicsComponent,
+  
   ],
   imports: [
     BrowserModule,
